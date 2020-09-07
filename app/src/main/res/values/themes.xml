@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="Theme.CalC" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ActionButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/actionButton</item>
+        <item name="android:textSize">21sp</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+
+
+    </style>
+
+    <style name="NumberButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/numberactionButton</item>
+        <item name="android:textSize">21sp</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+
+    </style>
+
+
+    <color name="colorPrimary">#4D4988</color>
+    <color name="colorPrimaryDark">#171F4B</color>
+    <color name="colorAccent">#F55E91</color>
+</resources>
